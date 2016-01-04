@@ -2,7 +2,7 @@
     package="com.example.sergei.marketplacevk">
     <uses-permission android:name="android.permission.INTERNET" />
     <application
-        android:name=".ApplicationUtils"
+        android:name=".app.ApplicationUtils"
         android:allowBackup="true" android:label="@string/app_name"
         android:icon="@mipmap/ic_launcher" android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -10,7 +10,7 @@
         <activity
             android:name="com.vk.sdk.VKServiceActivity"
             android:label="ServiceActivity" android:theme="@style/VK.Transparent"/>
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="ANDROID.INTENT.CATEGORY.LAUNCHER"/>
