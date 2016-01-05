@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">MarketPlaceVk</string>
     <integer name="com_vk_sdk_AppId">5210879</integer>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="stores">магазины</string>
 </resources>
